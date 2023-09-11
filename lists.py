@@ -1,3 +1,14 @@
+#Learning Tuples
+numbers = (1, 2, 3) # in tuples we can not chanche the values in the brakets.
+print (numbers[0])
+
+#if one wants to use a list that is not going to change in the program it is best to use Tuples.
+
+
+
+
+
+'''
 #Learning list methods
 numbers = [5, 2, 1, 7, 4]
 numbers.append(13) # adds item to the end of list
@@ -57,7 +68,7 @@ print(uniques)
 
 
 
-'''
+
 #learning 2D lists
 matrix = [
     [1, 2, 3],

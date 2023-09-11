@@ -1,3 +1,17 @@
+#Learning About Unpacking.
+#unpacking can be used in both tuples and list
+coordinates = (1, 2, 3) 
+x = coordinates[0]
+y = coordinates[1]
+z = coordinates[2]
+
+x, y, z = coordinates #This is a short hand version of the above code.
+print(x)
+print(y)
+print(z)
+print(x * z)
+
+'''
 #Learning Tuples
 numbers = (1, 2, 3) # in tuples we can not chanche the values in the brakets.
 print (numbers[0])
@@ -6,9 +20,6 @@ print (numbers[0])
 
 
 
-
-
-'''
 #Learning list methods
 numbers = [5, 2, 1, 7, 4]
 numbers.append(13) # adds item to the end of list
